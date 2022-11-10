@@ -1,7 +1,7 @@
 import ImageController from "../controller/ImageController.ts";
 
-import GeneralRouter from "../../Uberdeno/router/GeneralRouter.ts";
-import GeneralController from "../../Uberdeno/controller/GeneralController.ts";
+import GeneralRouter from "https://raw.githubusercontent.com/Schotsl/Uberdeno/main/router/GeneralRouter.ts";
+import GeneralController from "https://raw.githubusercontent.com/Schotsl/Uberdeno/main/controller/GeneralController.ts";
 
 const imageController = new ImageController(
   "image",

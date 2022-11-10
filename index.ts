@@ -1,4 +1,4 @@
-import Server from "../Uberdeno/other/Server.ts";
+import Server from "https://raw.githubusercontent.com/Schotsl/Uberdeno/main/other/Server.ts";
 
 import imageRouter from "./router/imageRouter.ts";
 
