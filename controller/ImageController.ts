@@ -4,13 +4,13 @@ import {
   State,
 } from "https://deno.land/x/oak@v11.1.0/mod.ts";
 
-import spacesClient from "https://raw.githubusercontent.com/Schotsl/Uberdeno/v1.0.4/services/spacesClient.ts";
+import spacesClient from "https://raw.githubusercontent.com/Schotsl/Uberdeno/v1.1.0/services/spacesClient.ts";
 import ImageEntity from "../entity/ImageEntity.ts";
 import ImageCollection from "../collection/ImageCollection.ts";
 
-import GeneralRepository from "https://raw.githubusercontent.com/Schotsl/Uberdeno/v1.0.4/repository/GeneralRepository.ts";
-import GeneralController from "https://raw.githubusercontent.com/Schotsl/Uberdeno/v1.0.4/controller/GeneralController.ts";
-import InterfaceController from "https://raw.githubusercontent.com/Schotsl/Uberdeno/v1.0.4/controller/InterfaceController.ts";
+import GeneralRepository from "https://raw.githubusercontent.com/Schotsl/Uberdeno/v1.1.0/repository/GeneralRepository.ts";
+import GeneralController from "https://raw.githubusercontent.com/Schotsl/Uberdeno/v1.1.0/controller/GeneralController.ts";
+import InterfaceController from "https://raw.githubusercontent.com/Schotsl/Uberdeno/v1.1.0/controller/InterfaceController.ts";
 
 export default class ImageController implements InterfaceController {
   private generalRepository: GeneralRepository;
